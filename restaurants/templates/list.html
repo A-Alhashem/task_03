@@ -7,8 +7,11 @@
     <body>
     	{% for list in my_list %}
 
-    		<li>{{list.restaurant}}</li>
-    		<li>{{list.food}}</li>
+    		<h1>Restaurant Name:</h1>
+    			<h3>{{list.restaurant}}</h3>
+    		<h1>Food Type:</h1>
+    			<h3>{{list.food}}</h3>
+    		<h2>-------------------------------</h2>
 
     	{% endfor %}
     </body>
